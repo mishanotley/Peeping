@@ -22,6 +22,7 @@ function setup() {
   mask = loadImage("newmask.png");
 } 
 
+//Within this sketch it uses the same masking functionality as the main webcam revealing feature however it uses mouse position instead of brightest pixel in the webcam feed.
 function draw() {
   background(0);
   blendMode(LIGHTEST);
@@ -43,7 +44,7 @@ function draw() {
 function mouseClicked() {
     if (mouseX > rectposx && mouseX < (rectposx + squareWidthAndHeight) && mouseY > rectposy && mouseY < (rectposy + squareWidthAndHeight)){
       console.log('clicked');
-    window.open("../Pages/index.html");
+    window.open("../Pages/pagesindex.html");
   }else{
     value = 0;
   }
