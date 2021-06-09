@@ -1,0 +1,77 @@
+@font-face {
+  font-family: HideSans;
+  src: url(assets/HideSans.otf);
+}
+
+div {
+  font-family: HideSans;
+}
+
+@font-face {
+  font-family: NeueMachina;
+  src: url(assets/NeueMachina-Regular.otf);
+}
+
+div {
+  font-family: Apoc;
+}
+
+header {
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  font-family: HideSans, Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  width: 100px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  margin-left: 0px; /* margin is -0.5 * dimension */
+  margin-top: 0px; 
+  text-shadow: 2px 2px 4px #303030;
+}
+
+body {
+  /* background: #222; */
+  color: rgb(255, 255, 255);
+  font-family: HideSans, Arial, Helvetica, sans-serif;
+  margin-left: 130px;
+  padding: 10px;
+  font-size: 25px;
+  text-shadow: 2px 2px 4px #727272;
+}
+
+section {
+  /* background: #222; */
+  color: rgb(255, 255, 255);
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  font-size: 100px;
+}
+
+ul {
+  /* background: #222; */
+  color: #000000;
+  font-size: 20px;
+  font-family: NeueMachina, Helvetica, sans-serif;
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  margin-left: 520px; /* margin is -0.5 * dimension */
+  margin-top: 200px; 
+  z-index: 10;
+  text-align: center;
+}
+
+img {
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 110%;
+  z-index: -10;
+}
+

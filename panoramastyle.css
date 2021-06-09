@@ -1,0 +1,59 @@
+@font-face {
+  font-family: HideSans;
+  src: url(assets/HideSans.otf);
+}
+
+div {
+  font-family: HideSans;
+}
+
+@font-face {
+  font-family: NeueMachina;
+  src: url(assets/NeueMachina-Regular.otf);
+}
+
+div {
+  font-family: Apoc;
+}
+
+body {
+  /* background: #222; */
+  color: white;
+  font-family: HideSans, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: white;
+  padding: 20px;
+  color: black;
+  font-family: HideSans, Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+section {
+  /* background: #222; */
+  color: gray;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  /* background: #222; */
+  color: white;
+  font-family: HideSans, Helvetica, sans-serif;
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px; /* margin is -0.5 * dimension */
+  margin-top: -25px; 
+  z-index: 10;
+}
+
+
+
+

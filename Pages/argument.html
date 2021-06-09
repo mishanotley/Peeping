@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../sketchstyle.css">
+    <meta charset="utf-8">
+
+    <style>
+      .caption {
+  columns: 30px 2;
+  font-family: NeueMachina, HideSans, Helvetica;
+  font-size: 14px;
+  margin-top: 200px;
+  margin-left: 0px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+  </style>
+
+  </head>
+  <body>
+    <header>
+      Use your phone torch light and shine onto the screen to reveal. Move slowly. Discover. (Move right to move left and vice-versa. May take a moment to detect the flashlight.)
+    </header>
+    <script src="argument.js"></script>
+    <ul>
+      <!-- Below I created the link to the panorama -->
+      <script>
+        var pages = [
+            'argumentpanorama.html'
+        ];
+    
+        function Site() {
+            var i = parseInt(Math.random() * pages.length);
+            location.href = pages[i];
+        }
+    </script>
+    <a href="#" onclick="Site();">Reveal</a>
+        </ul>
+
+        <div class="caption">
+          user: 10229383 &emsp; date: 19th May 2036 &emsp; caption: "i just hate it when my friends argue. jess slept with his boyfriend lol, so messy! anyway have a great day loves x"
+        </div>
+
+</body></html>
+
